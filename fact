@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int n=6;
+    long int fact=1;
+    printf("factorial of %d is:",n);
+    for(int i=1;i<n;i++)
+    {
+        fact = fact * i;
+    }
+    printf("%ld",fact);
+}
